@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIUU and MEESSI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cr7">
+        <img class="cr7" src="img/cr7.jpg" alt="SIUUUUU">
+        <button onclick="sete()">🔊</button>
+        <audio id="sete" src="audio/SIUU.mp3"></audio>
+    </div>
+    <div id="messi">
+        <img src="img/messi.jpg" alt="MEESSI">
+        <button onclick="dez()">🔊</button>
+        <audio id="dez" src="audio/meessi.mp3"></audio>
+    </div>
+</body>
+<script>
+    var audio7 = document.getElementById('sete')
+    var audio10 = document.getElementById('dez')
+
+    function dez(){
+        audio10.play()
+    }
+    function sete(){
+        audio7.play()
+    }
+</script>
+</html>

@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(to right top, black, rgb(168, 8, 8));
+}
+header{
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(252, 120, 120), rgb(250, 43, 43));
+}
+p{
+    display: inline-block;
+}
+.circle{
+    border: 3px rgb(71, 1, 30) solid;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: rgb(128, 0, 75);
+}
+.question{
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 60px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 110px 50px 110px 50px;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+}

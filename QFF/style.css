@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#cr7, #messi{
+    width: 300px;
+    margin: 0 50px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+button{
+    width: 300px;
+    height: 30px;
+}
